@@ -10,27 +10,27 @@
     <link rel="stylesheet" href="CSS/index.css">
     <!-- Bootstrap CSS -->
 
-    <title>Marcelo Pedernera</title>
+    <title>Marcelo Javier Pedernera</title>
     <link rel="icon" type="image/png" href="Images/favicon.png">
   </head>
   <body>
 
-    <header>
+    <header style="background:#1c3643">
       <div class="">
-        <figure>
+        <figure class="logo">
           <img src="Images/logo.png" alt="Logo de Leonidas">
         </figure>
 
 <!-- Init Nav --->
-        <nav>
+        <nav class="nav">
           <ol>
-            <li>
+            <li class="li">
               <a href="#portafolio">Portafolio</a>
             </li>
-            <li>
+            <li class="li">
               <a href="#expertice">Experiencia</a>
             </li>
-            <li>
+            <li class="li">
               <a href="#contact">Trabajemos Juntos</a>
             </li>
           </ol>
@@ -40,7 +40,7 @@
     </header>
 
 <!-- Init Presentación -->
-    <section>
+    <section class="hero">
       <h1>Hola soy <strong>Marcelo Pedernera</strong>, <br>desarrollador
         <strong>Java Script</strong>  <br>con pasión por la <strong>enseñanza</strong> </h1>
         <img src="Images/hero.jpg" width="500px" alt="imagen principal">
@@ -48,44 +48,45 @@
 <!-- End Presentación -->
 
 <!-- Init Portfoli -->
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
       <h2>Portafolio</h2>
-      <article class="">
-        <h3>video Portafolio</h3>
-        <h6>React Native</h6>
-        <p> <small> <strong>Fecha:</strong>01/07/2019</small> </p>
-        <p> <small> <strong>Puedes verlo en:</strong>www.gh</small> </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, feugiat vestibulum aliquet enim dictum primis dui, natoque curae montes etiam  <br>
+      <article class="project">
+        <h3 class="project_title">video Portafolio</h3>
+        <h6 class="project_subTitle">React Native</h6>
+        <p class="project_date"> <small> <strong>Fecha:</strong>01/07/2019</small> </p>
+        <p class="project_www"> <small> <strong>Puedes verlo en:</strong>www.gh</small> </p>
+        <p class="project_content">Lorem ipsum dolor sit amet consectetur adipiscing elit, feugiat vestibulum aliquet enim dictum primis dui, natoque curae montes etiam  <br>
            Lorem ipsum dolor sit amet consectetur adipiscing elit, feugiat vestibulum aliquet enim dictum primis dui, natoque curae montes etiam  <br>
            Lorem ipsum dolor sit amet consectetur adipiscing elit, feugiat vestibulum aliquet enim dictum primis dui, natoque curae montes etiam  <br>
         </p>
-        <img src="Images/platzi-video-react-native.png" width="500" alt="">
-      </article>
+          <figure class="project_image">
+            <img src="Images/platzi-video-react-native.png" width="500" alt="">
+          </figure>
 
+      </article>
     </section>
 <!-- End Portfoli -->
 
 <!-- Init Eventos -->
-    <section id="expertice">
+    <section id="expertice" class="expertice_event">
       <h2>Mas sobre mi Experiencia</h2>
-      <article class="">
-        <figure>
+      <article class="event">
+        <figure class="event_image">
           <img src="Images/platzi-conf.png" width="500" alt="">
         </figure>
-        <h3>Platzi Conference 2018</h3>
+        <h3 class="event_subTitle">Platzi Conference 2018</h3>
 
-        <p> El evento mas grande sobre la gente que quiere aprender de Internet. </p>
+        <p class="event_content"> El evento mas grande sobre la gente que quiere aprender de Internet. </p>
         <a href="#">Ver plática</a>
 
       </article>
-
     </section>
 
 <!-- End Eventos -->
 
 <!-- Init Contacto -->
-    <section id="contact">
-      <h3>¿Creamos algo juntos?</h3>
+    <section id="contact"  class="cont">
+      <h3 class="contatc_title">¿Creamos algo juntos?</h3>
       <form class="pt-4" action="index.html" method="post">
         <input type="text" name="" value="" placeholder="Déjame tu mail">
         <button type="button" name="">Enviar</button>
@@ -94,7 +95,7 @@
 
 <!-- End Contacto -->
 
-    <footer> footer</footer>
+    <footer class="footer"> footer</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
