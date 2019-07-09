@@ -16,7 +16,7 @@ h6{
 }
 
 
-}
+
 /*---------CSS GENERALES-------------*/
 
 
@@ -24,13 +24,21 @@ h6{
 /*---------Init Nav-------------*/
 header{
 
-/*---------End Nav-------------*/
+}
+
+          /*---------End Nav-------------*/
 
 
 /*---------Init Presentación-------------*/
+h1{
+  line-height: 50px;
+  letter-spacing: -2px;
+}
 
-
-/*---------End Presentación-------------*/
+.luz{
+  color: blue;
+}
+          /*---------End Presentación-------------*/
 
 
 
@@ -38,4 +46,4 @@ header{
 
 
 
-/*---------End Portfoli-------------*/
+          /*---------End Portfoli-------------*/
