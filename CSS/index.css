@@ -22,28 +22,39 @@ h6{
 
 
 /*---------Init Nav-------------*/
-header{
-
+.header{
+background-color:#1c3643;
+color: white;
 }
 
+body > header > div > nav > ol > li:nth-child(1) > a,
+body > header > div > nav > ol > li:nth-child(2) > a,
+body > header > div > nav > ol > li:nth-child(3) > a {
+  color: white;
+  text-decoration: none;
+}
           /*---------End Nav-------------*/
 
 
 /*---------Init Presentación-------------*/
 h1{
+  color: white;
   line-height: 50px;
   letter-spacing: -2px;
 }
 
-.luz{
-  color: blue;
+h1 strong{
+  color: #17a2b8;
 }
           /*---------End Presentación-------------*/
 
 
 
 /*---------Init Portfoli-------------*/
+.project{
+  border: 1px solid grey;
 
+}
 
 
           /*---------End Portfoli-------------*/
