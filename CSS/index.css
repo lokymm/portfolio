@@ -25,7 +25,24 @@ h6{
 .header{
 background-color:#1c3643;
 color: white;
+margin: 50px;
+padding: 50px;
 }
+
+.hero{
+/*margin: 50px;*/
+padding: 50px;
+}
+
+body > section.hero > div > div > div:nth-child(2){
+  text-align: right;
+}
+
+body > section.hero > div > div{
+  margin-left: 0px;
+}
+}
+
 
 body > header > div > nav > ol > li:nth-child(1) > a,
 body > header > div > nav > ol > li:nth-child(2) > a,
@@ -54,8 +71,18 @@ h1 strong{
 /*---------Init Portfoli-------------*/
 .project{
   border: 1px solid grey;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 10px;
 
 }
 
+.event{
+  border: 1px solid grey;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 10px;
+
+}
 
           /*---------End Portfoli-------------*/
