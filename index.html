@@ -15,35 +15,37 @@
     <!-- fuentes de Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
     <!-- fuentes de Google Fonts -->
-      <link rel="stylesheet" href="CSS/index.css">
+
 
     <link rel="icon" type="image/png" href="Images/favicon.png">
   </head>
   <body>
-
-    <header style="background:#1c3643">
-      <div class="">
-        <figure class="logo">
-          <img src="Images/logo.png" alt="Logo de Leonidas">
-        </figure>
-
 <!-- Init Nav --->
-        <nav class="nav">
-          <ol>
-            <li class="li">
-              <a href="#portafolio">Portafolio</a>
-            </li>
-            <li class="li">
-              <a href="#expertice">Experiencia</a>
-            </li>
-            <li class="li">
-              <a href="#contact">Trabajemos Juntos</a>
-            </li>
-          </ol>
-        </nav>
-      </div>
-<!-- End Nav -->
+    <header class"header">
+       <div class="logo_a">
+            <figure class="logo">
+              <img src="Images/logo.png" class="mt-4" alt="Logo de Leonidas">
+            </figure>
+        </div>
+
+
+            <nav class="nav">
+              <ol>
+                <li class="li">
+                  <a href="#portafolio">Portafolio</a>
+                </li>
+                <li class="li">
+                  <a href="#expertice">Experiencia</a>
+                </li>
+                <li class="li">
+                  <a href="#contact">Trabajemos Juntos</a>
+                </li>
+              </ol>
+            </nav>
+
     </header>
+<!-- End Nav -->
+
 
 <!-- Init Presentación -->
 <section class="hero">
@@ -63,12 +65,12 @@
 
 <!-- Init Portfoli -->
     <section id="portafolio" class="portfolio">
-      <h2>Portafolio</h2>
+      <h2>Portafolio (Proyectos Destacados)</h2>
       <article class="project">
         <div class="Container">
           <div class="row">
             <div class="col">
-              <h3 class="project_title">video Portafolio</h3>
+              <h3 class="project_title">Video Portafolio</h3>
               <h6 class="project_subTitle">React Native</h6>
               <p class="project_date"> <small> <strong>Fecha:</strong>01/07/2019</small> </p>
               <p class="project_www"> <small> <strong>Puedes verlo en:</strong>www.gh</small> </p>
@@ -93,17 +95,48 @@
 <!-- End Portfoli -->
 
 <!-- Init Eventos -->
+<h2>Mas sobre mi Experiencia</h2>
     <section id="expertice" class="expertice_event">
-      <h2>Mas sobre mi Experiencia</h2>
+
       <article class="event">
         <figure class="event_image">
           <img src="Images/platzi-conf.png" width="500" alt="">
         </figure>
-        <h3 class="event_subTitle">Platzi Conference 2018</h3>
-
-        <p class="event_content"> El evento mas grande sobre la gente que quiere aprender de Internet. </p>
-        <a href="#">Ver plática</a>
-
+        <div class="event_detail">
+          <h3 class="event_subTitle">Platzi Conference 2018</h3>
+          <p class="event_content"> El evento mas grande sobre la gente que quiere aprender de Internet. </p>
+          <a href="#" class="event_url">Ver plática</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event_image">
+          <img src="Images/platzi-conf.png" width="500" alt="">
+        </figure>
+        <div class="event_detail">
+          <h3 class="event_subTitle">Platzi Conference 2018</h3>
+          <p class="event_content"> El evento mas grande sobre la gente que quiere aprender de Internet. </p>
+          <a href="#" class="event_url">Ver plática</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event_image">
+          <img src="Images/platzi-conf.png" width="500" alt="">
+        </figure>
+        <div class="event_detail">
+          <h3 class="event_subTitle">Platzi Conference 2018</h3>
+          <p class="event_content"> El evento mas grande sobre la gente que quiere aprender de Internet. </p>
+          <a href="#" class="event_url">Ver plática</a>
+        </div>
+      </article>
+      <article class="event">
+        <figure class="event_image">
+          <img src="Images/platzi-conf.png" width="500" alt="">
+        </figure>
+        <div class="event_detail">
+          <h3 class="event_subTitle">Platzi Conference 2018</h3>
+          <p class="event_content"> El evento mas grande sobre la gente que quiere aprender de Internet. </p>
+          <a href="#" class="event_url">Ver plática</a>
+        </div>
       </article>
     </section>
 
@@ -120,7 +153,14 @@
 
 <!-- End Contacto -->
 
-    <footer class="footer"> footer</footer>
+    <footer class="footer">
+      <div class="">
+        curso de diseño
+      </div>
+      <div class="">
+        Créditos
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

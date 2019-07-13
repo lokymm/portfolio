@@ -22,16 +22,33 @@ h6{
 
 
 /*---------Init Nav-------------*/
-.header{
-background-color:#1c3643;
-color: white;
-margin: 50px;
-padding: 50px;
+header{
+  height: 150px;
+  background:#1c3643;
+  display: flex;
+  justify-content: space-between;
 }
+
+.header ol, li{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav{
+  flex-wrap: nowrap;
+}
+
+
+
+
+
+
 
 .hero{
 /*margin: 50px;*/
 padding: 50px;
+display: flex;
 }
 
 body > section.hero > div > div > div:nth-child(2){
@@ -69,15 +86,31 @@ h1 strong{
 
 
 /*---------Init Portfoli-------------*/
+.portfolio{
+  margin: 50px;
+
+}
+h2{
+  margin-bottom: 50px;
+  color: #026fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .project{
   border: 1px solid grey;
-  margin: 50px;
+  /*margin: 50px;*/
   padding: 50px;
   border-radius: 10px;
 
 }
 
-.event{
+.project_content{
+  font-size: 18px;
+}
+
+.expertice_event{
   border: 1px solid grey;
   margin: 50px;
   padding: 50px;
@@ -85,4 +118,50 @@ h1 strong{
 
 }
 
+.cont{
+  margin: 50px;
+  padding: 50px;
+}
+
+.expertice_event{
+  display: flex;
+}
+
+.event img {
+  width: 450px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event {
+  margin: 10px;
+  width: 450px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.event_detail{
+  margin: 20px 40px;
+  margin-top: -45px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align:center;
+
+}
+
+.event_url{
+  border: 1px solid grey;
+  border-radius: 15px; 
+}
           /*---------End Portfoli-------------*/
+.footer{
+  color: white;
+  background-color:#1c3643;
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
