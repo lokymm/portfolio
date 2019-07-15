@@ -22,13 +22,16 @@
   <body>
 <!-- Init Nav --->
     <header class"header">
-       <div class="logo_a">
-            <figure class="logo">
-              <img src="Images/logo.png" class="mt-4" alt="Logo de Leonidas">
-            </figure>
-        </div>
-
-
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="logo_a">
+                 <figure class="logo">
+                   <img src="Images/logo.png" class="mt-4" alt="Logo de Leonidas">
+                 </figure>
+             </div>
+          </div>
+          <div class="col">
             <nav class="nav">
               <ol>
                 <li class="li">
@@ -42,6 +45,10 @@
                 </li>
               </ol>
             </nav>
+         </div>
+        </div>
+
+      </div>
 
     </header>
 <!-- End Nav -->
@@ -56,7 +63,7 @@
           <strong>Java Script</strong>  <br>con pasión por la <strong>enseñanza</strong> </h1>
       </div>
       <div class="col" style="background:#1c3643">
-        <img src="Images/hero.jpg" width="400px" alt="imagen principal">
+        <img class="hero-img" src="Images/hero.jpg" width="500px" alt="imagen principal">
       </div>
     </div>
   </div>
@@ -143,12 +150,18 @@
 <!-- End Eventos -->
 
 <!-- Init Contacto -->
-    <section id="contact"  class="cont">
+    <section id="contact"  class="contact">
       <h3 class="contatc_title">¿Creamos algo juntos?</h3>
       <form class="pt-4" action="index.html" method="post">
         <input type="text" name="" value="" placeholder="Déjame tu mail">
         <button type="button" name="">Enviar</button>
       </form>
+      <div class="social">
+        <a href="#" class="social-link twitter"></a>
+        <a href="#" class="social-link facebook"></a>
+        <a href="#" class="social-link github"></a>
+        <a href="#" class="social-link instagram"></a>
+      </div>
     </section>
 
 <!-- End Contacto -->
