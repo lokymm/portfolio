@@ -24,8 +24,9 @@ h6{
 
 /*---------Init Nav-------------*/
 header{
-  background: #FF0000;
+  background: #1c3643;
  border: 1px solid red;
+ padding: 0 20px 20px 0;
 }
 
 .nav{
