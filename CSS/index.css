@@ -23,32 +23,67 @@ h6{
 
 
 /*---------Init Nav-------------*/
-header{
-  background: #1c3643;
- border: 1px solid red;
- padding: 0 20px 20px 0;
+.header {
+  background-color:#1c3643;
+  /* max-width: 1000px; */
+  /* width: 100%; */
+  /* display: flex; */
+  text-align:justify;
+  flex-wrap: wrap;
+
 }
 
-.nav{
-  display:flex;
+.header .logo{
+justify-content: center;
+}
+
+.header .nav{
+  text-align: end;
+
+
+}
+/* body > header > div .container0{
+  max-width: 1000px;
+  width: 100%;
+  flex-wrap: wrap; */
 }
 
 
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+
+
+}
+
+.header ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white;
+
+}
+
+
+              /*---------End Nav-------------*/
 
 
 
 
+/*---------Init Hero-------------*/
 .hero{
 
   margin: 20px;
   /*padding: 50px;*/
   border-radius: 10px;
   justify-content: space-between;
-display: flex;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hero .Container{
-  width: 1247px;
+  max-width: 1000px;
 }
 
 .hero .Container .row{
@@ -65,7 +100,7 @@ display: flex;
 
 
 
-          /*---------End Nav-------------*/
+          /*---------End Hero-------------*/
 
 
 /*---------Init Presentación-------------*/
@@ -86,6 +121,7 @@ h1 strong{
 /*---------Init Portfoli-------------*/
 .portfolio{
   margin: 50px;
+  flex-wrap: wrap;
 
 }
 h2{
@@ -101,6 +137,7 @@ h2{
   /*margin: 50px;*/
   padding: 50px;
   border-radius: 10px;
+  flex-wrap: wrap;
 
 }
 
@@ -169,10 +206,12 @@ h2{
   display: flex;
   align-items: center;
   justify-content:space-between;
+  flex-wrap: wrap;
 
 }
 .social{
   /*border: 1px solid grey;*/
+  flex-wrap: wrap;
 }
 
 .social-link{
@@ -181,6 +220,7 @@ h2{
   height: 50px;
   border: 1px solid grey;
   background-size: 50px 50px;
+  flex-wrap: wrap;
 }
 
 .social-link.twitter{
@@ -201,7 +241,7 @@ h2{
 
 }
 
-form-email
+
 
       /*---------End Contact-------------*/
 .footer{
@@ -211,6 +251,7 @@ form-email
   height: 150px;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /*---------Init Responsive   Desktop First (comenzamos con el
@@ -221,10 +262,21 @@ tamaño mas grande de display)-------------*/
 }
 
 
-@media screen and (max-width:768px){
-  body{
-     border: 10px solid red;
-  }
+@media screen and (max-width:767px){
+.header{
+display: block;
+height: auto;
+}
+
+.header ol{
+  display: block;
+}
+
+.header ol li{
+  height: 50px;
+  text-align:center;
+}
+
 }
 
 
