@@ -26,7 +26,7 @@ h6{
 .header {
   background-color:#1c3643;
   /* max-width: 1000px; */
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   /* text-align:justify; */
   flex-wrap: wrap;
@@ -98,6 +98,7 @@ justify-content: center;
 }
 
 .hero-img{
+  width: 500px;
   object-fit: cover;
   align-self: flex-end;
 }
@@ -133,6 +134,14 @@ h1 strong{
   flex-wrap: wrap;
 
 }
+
+.portfolio img{
+  width: 500px;
+  object-fit: cover;
+  align-self: flex-end;
+}
+
+
 h2{
   margin-bottom: 50px;
   color: #026fff;
@@ -140,6 +149,32 @@ h2{
   font-size: 24px;
   font-weight: bold;
 }
+
+.video{
+  width: 100%;
+  height: auto;
+
+}
+
+/* .youtube-video1{
+  /* width: 100%;
+  height: auto; */
+  /* position: absolute; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.flexible-video{
+width: 100%;
+height: 0;
+padding-top: 56.25;
+position: relative;
+}
+
 
 .project{
   /* border: 1px solid grey; */
@@ -287,7 +322,25 @@ tamaño mas grande de display)-------------*/
 
         /*---------esto sería un I.Pad-------------*/
 @media screen and (max-width:767px){
-.header{
+
+.hero{
+  height: auto;
+}
+
+.hero img{
+  /* position: absolute;
+  z-index: 1; */
+  /* height: 30%;
+  width: 30%;
+  items align-items: auto; */
+}
+
+
+.h1{
+  font-size: 12px;
+}
+
+/* .header{
 display: block;
 height: auto;
 }
@@ -299,7 +352,14 @@ height: auto;
 .header ol li{
   height: 50px;
   text-align:center;
+} */
+
+.portfolio img{
+  width: 400px;
+  object-fit: cover;
+  align-self: flex-end;
 }
+
 
 .project{
   display: block;
@@ -328,7 +388,7 @@ font-size: 1em;
 }
 .project_content{
   width: auto;
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .project_subTitle .project_date .project_www{
@@ -365,6 +425,19 @@ font-size: 1em;
 
 @media screen and (max-width:480px){
 
+
+  .hero img{
+    width: 400px;
+    object-fit: cover;
+    align-self: flex-end;
+  }
+
+  .portfolio img{
+    width: 300px;
+    object-fit: cover;
+    align-self: flex-end;
+  }
+
   .project_title{
   font-size: 20px;
   }
@@ -396,6 +469,30 @@ font-size: 1em;
 
 @media screen and (max-width:320px){
 
+.h1{
+  font-size: 26px;
+}
+  .hero img{
+    width: 250px;
+    object-fit: cover;
+    align-self: flex-end;
+  }
+
+  .portfolio img{
+    width: 200px;
+    object-fit: cover;
+    align-self: flex-end;
+  }
+
+.project{
+  padding: 5px;
+
+}
+
+.project_content{
+  font-size: 10px;
+}
+
   .project_title{
   font-size: 16px;
   }
@@ -409,6 +506,24 @@ font-size: 1em;
   .event img{
     width:100%;
   }
+
+.expertice_event{
+  padding: 15px;
+}
+
+.event_subTitle{
+  font-size: 15px;
+}
+
+.event_content{
+  font-size: 10px;
+}
+
+.event_detail{
+  padding: 5px;
+}
+
+
 .footer{
   display: block;
   text-align: center;
